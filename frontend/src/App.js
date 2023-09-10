@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route path="/" component={Join} />
+        <Route exact path="/" component={Join} />
         <Route path="/chat" />
       </Router>
     </div>
